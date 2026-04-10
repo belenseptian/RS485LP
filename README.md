@@ -12,7 +12,7 @@
 -----
 
 ### 📟 Board Design Preview
-Below are the top and bottom views of the RS485LP node.
+Below are the top and bottom views of the RS485LP PCB.
 
 | Top View (Components) | Bottom View (Traces) |
 | :---: | :---: |
