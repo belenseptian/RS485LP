@@ -5,7 +5,7 @@
 [](https://www.gnu.org/licenses/gpl-3.0)
 [](https://platformio.org/)
 
-**RS485LP** is a specialized hardware and software solution designed for extreme low-power, long-distance communication. This project provides a custom PCB design and optimized firmware for RS485 nodes, specifically engineered for battery-powered industrial sensors or remote monitoring systems where power efficiency is paramount.
+**RS485LP** is an open-source RS485 converter featuring a custom PCB and optimized PlatformIO firmware. It is designed to minimize power consumption for battery-operated sensors and remote monitoring systems.
 
 🔗 **Official Project Website:** [https://belenseptian.github.io/RS485LP/](https://belenseptian.github.io/RS485LP/)
 
