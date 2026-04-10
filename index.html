@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Low power dual-voltage RS485 converter - Showcase</title>
+    <style>
+        :root {
+            --primary-highlight: #3498db;
+            --secondary-tone: #ecf0f1;
+            --text-dark: #2c3e50;
+            --text-light: #7f8c8d;
+            --bg-color: #ffffff;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            color: var(--text-dark);
+            background-color: var(--secondary-tone);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* --- Global Styles --- */
+        a { text-decoration: none; color: inherit; transition: color 0.3s; }
+        a:hover { color: var(--primary-highlight); }
+        ul { list-style: none; padding: 0; }
+        h1, h2, h3 { font-weight: 600; margin: 0 0 1rem; }
+        img { max-width: 100%; height: auto; display: block; border-radius: 4px; }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            background-color: var(--bg-color);
+            margin-bottom: 2rem;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+        }
+
+        .section-title {
+            text-align: center;
+            border-bottom: 2px solid var(--secondary-tone);
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .section-desc {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 2.5rem;
+        }
+
+        /* --- Header Styles --- */
+        header {
+            background-color: var(--bg-color);
+            padding: 1.5rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+
+        .header-title {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+
+        .header-title small {
+            display: block;
+            font-weight: 300;
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-top: 0.2rem;
+        }
+
+        .github-btn {
+            background-color: var(--text-dark);
+            color: white;
+            padding: 0.7rem 1.4rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .github-btn:hover { background-color: var(--primary-highlight); }
+
+        /* --- Multimeter Grid (4 Layouts) --- */
+        .measurement-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .measurement-item {
+            border: 1px solid var(--secondary-tone);
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .measurement-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+        }
+
+        .measurement-image-container {
+            position: relative;
+            padding-bottom: 75%; /* 4:3 Aspect Ratio */
+            overflow: hidden;
+        }
+
+        .measurement-item img {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            object-fit: cover;
+        }
+
+        .measurement-caption {
+            padding: 1rem;
+            background-color: white;
+            flex-grow: 1;
+        }
+
+        .caption-heading {
+            font-weight: 700;
+            font-size: 1rem;
+            margin-bottom: 0.3rem;
+            color: var(--text-dark);
+        }
+
+        .caption-reading {
+            font-family: monospace;
+            font-size: 1.2rem;
+            color: var(--primary-highlight);
+            margin-bottom: 0.5rem;
+        }
+
+        .caption-text {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        /* --- PCB Close-up (Focused Layout) --- */
+        .pcb-focus {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .pcb-image-wrap {
+            position: relative;
+            max-width: 600px;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+        .pcb-label {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: var(--text-dark);
+            padding: 0.2rem 0.5rem;
+            border-radius: 2px;
+            font-size: 0.8rem;
+            font-family: monospace;
+            pointer-events: none;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--secondary-tone);
+        }
+
+        .pcb-caption {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .pcb-caption ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .pcb-caption li strong { color: var(--text-dark); }
+        .pcb-caption li span { color: var(--text-light); }
+
+        /* --- Block Diagram (SVG Layout) --- */
+        .diagram-container {
+            display: flex;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+
+        /* --- Footer --- */
+        footer {
+            text-align: center;
+            padding: 3rem 0;
+            color: var(--text-light);
+            background-color: var(--bg-color);
+            border-top: 1px solid var(--secondary-tone);
+        }
+
+        footer strong { color: var(--text-dark); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content container">
+            <h1 class="header-title">
+                Low power dual-voltage RS485 converter
+            </h1>
+            <a href="https://github.com/user/Low-Power-RS485" class="github-btn" target="_blank" rel="noopener noreferrer">
+                View on GitHub (Full Link)
+            </a>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section id="overview">
+            <h2 class="section-title">System Architecture</h2>
+            <p class="section-desc">
+                This low-power, dual-voltage RS485 converter facilitates half-duplex communication while providing logic-level translation between 3.3V and 5V systems. Utilizing the MAX487 transceiver, the hardware includes configurable jumpers for supply voltage selection and 120Ω bus termination. The functional block diagram illustrates the signal architecture and control logic for the hardware interface.
+            </p>
+            <div class="diagram-container">
+                <svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" width="600" height="300" style="background-color: white; font-family: -apple-system, sans-serif;">
+                    
+                    <text x="300" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c3e50">System Block Diagram: Low Power Dual-Voltage RS485</text>
+                    
+                    <rect x="50" y="50" width="160" height="220" rx="4" fill="#ecf0f1" stroke="#34495e" stroke-width="1.5"/>
+                    <text x="130" y="70" text-anchor="middle" font-size="12" fill="#2c3e50">HOST LOGIC</text>
+                    <text x="130" y="85" text-anchor="middle" font-size="10" fill="#7f8c8d">(MCU / FPGA)</text>
+                    
+                    <circle cx="210" cy="110" r="4" fill="#34495e"/> <text x="218" y="113" font-size="10" fill="#2c3e50">DI</text>
+                    <circle cx="210" cy="150" r="4" fill="#34495e"/> <text x="218" y="153" font-size="10" fill="#2c3e50">DE / RE*</text>
+                    <circle cx="210" cy="190" r="4" fill="#34495e"/> <text x="218" y="193" font-size="10" fill="#2c3e50">RO</text>
+                    
+                    <line x1="210" y1="110" x2="310" y2="110" stroke="#34495e" stroke-width="1.5" marker-end="url(#arrow-start)"/>
+                    <line x1="210" y1="150" x2="310" y2="150" stroke="#34495e" stroke-width="1.5" marker-end="url(#arrow-start)"/>
+                    <line x1="210" y1="190" x2="310" y2="190" stroke="#34495e" stroke-width="1.5" marker-end="url(#arrow-both)"/>
+                    
+                    <rect x="310" y="50" width="180" height="220" rx="4" fill="#ecf0f1" stroke="#3498db" stroke-width="2"/>
+                    <text x="400" y="70" text-anchor="middle" font-size="12" fill="#2c3e50">RS485-UBBL Module</text>
+                    <text x="400" y="85" text-anchor="middle" font-size="10" fill="#7f8c8d">(MAX487)</text>
+                    
+                    <rect x="330" y="100" width="140" height="25" rx="2" fill="#e74c3c" stroke="#c0392b" stroke-width="1.5"/>
+                    <text x="400" y="117" text-anchor="middle" font-size="11" fill="white">Driver (Tx)</text>
+                    
+                    <rect x="330" y="140" width="140" height="25" rx="2" fill="#2ecc71" stroke="#27ae60" stroke-width="1.5"/>
+                    <text x="400" y="157" text-anchor="middle" font-size="11" fill="white">Receiver (Rx)</text>
+                    
+                    <rect x="330" y="180" width="140" height="25" rx="2" fill="#f39c12" stroke="#e67e22" stroke-width="1.5"/>
+                    <text x="400" y="197" text-anchor="middle" font-size="11" fill="white">V-Selection (3.3/5V)</text>
+                    
+                    <circle cx="490" cy="110" r="4" fill="#3498db"/> <text x="498" y="113" font-size="10" fill="#2c3e50">A (Y)</text>
+                    <circle cx="490" cy="190" r="4" fill="#3498db"/> <text x="498" y="193" font-size="10" fill="#2c3e50">B (Z)</text>
+                    
+                    <line x1="400" y1="180" x2="400" y2="125" stroke="#e67e22" stroke-width="1" stroke-dasharray="2 2"/>
+                    <line x1="400" y1="180" x2="400" y2="165" stroke="#e67e22" stroke-width="1" stroke-dasharray="2 2"/>
+                    
+                    <line x1="310" y1="110" x2="330" y2="110" stroke="#c0392b" stroke-width="1.5"/>
+                    <line x1="310" y1="190" x2="330" y2="190" stroke="#27ae60" stroke-width="1.5"/>
+                    <line x1="310" y1="150" x2="330" y2="150" stroke="#f39c12" stroke-width="1.5"/>
+                    
+                    <line x1="470" y1="110" x2="490" y2="110" stroke="#c0392b" stroke-width="1.5"/>
+                    <line x1="470" y1="140" x2="490" y2="140" stroke="#27ae60" stroke-width="1.5"/>
+                    <line x1="490" y1="110" x2="490" y2="140" stroke="#3498db" stroke-width="1.5" stroke-dasharray="3 1"/>
+                    <line x1="490" y1="140" x2="490" y2="190" stroke="#3498db" stroke-width="1.5" stroke-dasharray="3 1"/>
+                    
+                    <rect x="520" y="100" width="40" height="60" rx="2" fill="#ecf0f1" stroke="#34495e" stroke-width="1"/>
+                    <text x="540" y="110" text-anchor="middle" font-size="8" fill="#2c3e50">TERM</text>
+                    <rect x="525" y="115" width="10" height="40" fill="#2c3e50"/>
+                    <text x="530" y="135" text-anchor="middle" font-size="10" fill="white">120Ω</text>
+                    
+                    <defs>
+                        <marker id="arrow-start" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+                            <path d="M0,0 L6,2 L0,4" fill="#34495e"/>
+                        </marker>
+                        <marker id="arrow-both" markerWidth="6" markerHeight="4" refX="3" refY="2" orient="auto">
+                            <path d="M0,2 L6,2 M3,0 L3,4" fill="#34495e"/>
+                        </marker>
+                    </defs>
+                    
+                </svg>
+            </div>
+        </section>
+
+        <section id="performance">
+            <h2 class="section-title">Performance and Current Consumption</h2>
+            <p class="section-desc">
+                We validated the "Low Power" designation by performing precise DC current measurements across shutdown, transmit, and receive modes while configured for 3.3V operation. All measurement parameters derived from the on-board ZT-702S oscilloscope confirm stable, compliant output waveforms.
+            </p>
+            <div class="measurement-grid">
+
+                <div class="measurement-item">
+                    <div class="measurement-image-container">
+                        <img src="3.png">
+                    </div>
+                    <div class="measurement-caption">
+                        <p class="caption-heading">Sleep (Shutdown) Mode</p>
+                        <p class="caption-reading">08.77 mA</p>
+                        <p class="caption-text">Multimeter leads configured for DC mA measurement. Red lead to mA, black lead to COM. The device is powered, and the red indication LED is illuminated. This establishes the baseline low-power sleep current.</p>
+                    </div>
+                </div>
+
+                <div class="measurement-item">
+                    <div class="measurement-image-container">
+                        <img src="2.png">
+                    </div>
+                    <div class="measurement-caption">
+                        <p class="caption-heading">Transmit</p>
+                        <p class="caption-reading">10.28 mA</p>
+                        <p class="caption-text">Current consumption measured during the transmission of a continuous state. Probes are placed directly on the current measurement loop of the device PCB.</p>
+                    </div>
+                </div>
+
+                <div class="measurement-item">
+                    <div class="measurement-image-container">
+                        <img src="4.png">
+                    </div>
+                    <div class="measurement-caption">
+                        <p class="caption-heading">Receive</p>
+                        <p class="caption-reading">09.09 mA</p>
+                        <p class="caption-text">Peak current measured while actively monitoring the RS485 bus for incoming data.</p>
+                    </div>
+                </div>
+
+                <div class="measurement-item">
+                    <div class="measurement-image-container">
+                        <img src="5.png">
+                    </div>
+                    <div class="measurement-caption">
+                        <p class="caption-heading">Transmit Signal (From Converter to MCU)</p>
+                        <p class="caption-text">Waveform of transmit signal shown on digital oscilloscope.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="hardware">
+            <h2 class="section-title">Hardware Architecture</h2>
+            <div class="pcb-focus">
+                <div class="pcb-image-wrap">
+                    <img src="1.png">
+                </div>
+                <div class="pcb-caption">
+                    <p class="caption-heading">PCB Close-up (RS485-UBBL PV1.0)</p>
+                    <p class="caption-text">This high-resolution close-up of the converter highlights key functional blocks. The clean design centers on the MAX487 transceiver (U4). Crucial elements are labeled for clarity:</p>
+                    <ul>
+                        <li><strong>MAX487 (U4):</strong> <span>Core RS485 transceiver.</span></li>
+                        <li><strong>10µF & 0.1µF Caps:</strong> <span>Local decoupling for stable power.</span></li>
+                        <li><strong>Voltage Select Jumpers:</strong> <span>Configure the module for 3.3V or 5V operation.</span></li>
+                        <li><strong>Control Headers:</strong> <span>Logic Interface (DI, DE, RE, RO, 3.3V, 5V).</span></li>
+                        <li><strong>120Ω Term (T):</strong> <span>Switchable termination jumper.</span></li>
+                        <li><strong>Bus Interface (A/B):</strong> <span>RS485 Differential pair terminals.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Showcase by <strong>Belen Septian</strong></p>
+            <p>Invention Name: <strong>Low power dual-voltage RS485 converter</strong></p>
+            <p>Full Repository: <a href="https://github.com/user/Low-Power-RS485" target="_blank" rel="noopener noreferrer">https://github.com/user/Low-Power-RS485</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
