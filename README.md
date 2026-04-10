@@ -11,6 +11,15 @@
 
 -----
 
+### 📟 Board Design Preview
+Below are the top and bottom views of the RS485LP node.
+
+| Top View (Components) | Bottom View (Traces) |
+| :---: | :---: |
+| ![PCB Top](docs/pcb_top.png) | ![PCB Bottom](docs/pcb_bottom.png) |
+
+-----
+
 ## 🚀 Features
 
   * **Sleep & Shutdown Optimization:** Optimized for deep-sleep and hardware shutdown modes to achieve micro-amp current draw during periods of inactivity.
