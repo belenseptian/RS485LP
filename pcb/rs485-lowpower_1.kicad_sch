@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "5bb97b92-171a-416e-ad00-ad75731826ac")
+	(uuid "bb08ea63-4e6f-4408-987a-560daefec273")
 	(paper "User" 298.45 217.3224)
 	(lib_symbols
 		(symbol "rs485-lowpower-eagle-import:22-23-2021"
@@ -332,6 +332,721 @@
 							(font
 								(size 1.524 1.524)
 							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "rs485-lowpower-eagle-import:A4L-LOC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FRAME"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "FRAME\n\nDIN A4, landscape with location and doc. field"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "A4L-LOC_1_0"
+				(polyline
+					(pts
+						(xy 0 179.07) (xy 260.35 179.07) (xy 260.35 0) (xy 0 0) (xy 0 179.07)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 134.3025) (xy 3.81 134.3025)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 89.535) (xy 3.81 89.535)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 44.7675) (xy 3.81 44.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 175.26) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.3917 179.07) (xy 43.3917 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.3917 3.81) (xy 43.3917 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 86.7833 179.07) (xy 86.7833 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 86.7833 3.81) (xy 86.7833 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 130.175 179.07) (xy 130.175 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 130.175 3.81) (xy 130.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 161.29 24.13) (xy 215.265 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 161.29 3.81) (xy 161.29 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 173.5667 179.07) (xy 173.5667 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 173.5667 3.81) (xy 173.5667 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 215.265 24.13) (xy 256.54 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 215.265 19.05) (xy 215.265 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 215.265 19.05) (xy 256.54 19.05)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 215.265 13.97) (xy 215.265 19.05)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 215.265 13.97) (xy 256.54 13.97)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 215.265 8.89) (xy 215.265 13.97)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 215.265 8.89) (xy 215.265 3.81)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 216.9583 179.07) (xy 216.9583 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 216.9583 3.81) (xy 216.9583 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 246.38 8.89) (xy 215.265 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 246.38 8.89) (xy 256.54 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 246.38 3.81) (xy 246.38 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 175.26) (xy 3.81 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 175.26) (xy 256.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 134.3025) (xy 260.35 134.3025)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 89.535) (xy 260.35 89.535)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 44.7675) (xy 260.35 44.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 19.05) (xy 256.54 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 13.97) (xy 256.54 19.05)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 8.89) (xy 256.54 13.97)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 3.81) (xy 256.54 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "A"
+					(at 1.905 156.6863 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "B"
+					(at 1.905 111.9188 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "C"
+					(at 1.905 67.1513 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "D"
+					(at 1.905 22.3838 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "1"
+					(at 21.6958 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "1"
+					(at 21.6958 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "2"
+					(at 65.0875 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "2"
+					(at 65.0875 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "3"
+					(at 108.4792 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "3"
+					(at 108.4792 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "4"
+					(at 151.8708 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "4"
+					(at 151.8708 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "5"
+					(at 195.2625 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "5"
+					(at 195.2625 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "Sheet:"
+					(at 216.916 4.953 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${PROJECTNAME}"
+					(at 217.17 15.24 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${CURRENT_DATE}"
+					(at 217.17 10.16 0)
+					(effects
+						(font
+							(size 2.286 1.9431)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${#}/${##}"
+					(at 230.505 5.08 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "6"
+					(at 238.6542 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "6"
+					(at 238.6542 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "A"
+					(at 258.445 156.6863 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "B"
+					(at 258.445 111.9188 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "C"
+					(at 258.445 67.1513 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "D"
+					(at 258.445 22.3838 0)
+					(effects
+						(font
+							(size 2.54 2.286)
 						)
 					)
 				)
@@ -1618,1107 +2333,1182 @@
 	)
 	(text "Jumper (3.3V)"
 		(exclude_from_sim no)
-		(at 157.48 171.196 0)
+		(at 218.44 170.18 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
 			)
 			(justify left bottom)
 		)
-		(uuid "2238e6ac-0292-4e95-8a39-f3d6807077ad")
+		(uuid "2e82b11b-7121-4077-85bf-3da9a397b336")
+	)
+	(text "MAX487"
+		(exclude_from_sim no)
+		(at 116.84 114.3 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "37c0c2fb-f208-4a15-aaad-365ce6a05b57")
 	)
 	(text "Jumper (5V)"
 		(exclude_from_sim no)
-		(at 157.48 153.416 0)
+		(at 218.44 152.4 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
 			)
 			(justify left bottom)
 		)
-		(uuid "d6a3713d-6b73-4f58-9e7f-cb9812115ffd")
+		(uuid "d0b27e5a-18df-42b1-852c-e87bc8fb5c61")
 	)
 	(junction
-		(at 33.02 101.6)
+		(at 139.7 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4cdbf305-4f86-4586-9d85-b367d949f124")
+		(uuid "0c955ee0-4bf3-4657-86b8-d8a0d22bc9d8")
 	)
 	(junction
-		(at 99.06 78.74)
+		(at 154.94 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4d58c0b7-0197-49e4-841b-5d6c59f30027")
+		(uuid "2423f3a5-504d-4730-b726-6b5a4ef18395")
 	)
 	(junction
-		(at 33.02 116.84)
+		(at 88.9 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5e978916-1c3b-42b8-80e7-f1cb5a80255c")
+		(uuid "35a885a8-4a4b-4287-b95e-0d6d3ed25de8")
 	)
 	(junction
-		(at 81.28 140.97)
+		(at 154.94 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "906570a5-9dd4-4880-9569-f8b2b54d7f8c")
+		(uuid "44bfd4eb-a676-486c-b9d3-ce44526e5977")
 	)
 	(junction
-		(at 88.9 166.37)
+		(at 149.86 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9da5aa6a-f53b-4d51-a33c-d8fd38e7fd04")
+		(uuid "5d8f7032-d445-4326-afc2-3805025155e8")
 	)
 	(junction
-		(at 88.9 140.97)
+		(at 88.9 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cac99b77-44b5-48ba-bab0-674eda6a1d15")
+		(uuid "60ea917f-a799-4bb3-afae-6c9c8aa6d9a7")
 	)
 	(junction
-		(at 99.06 166.37)
+		(at 167.64 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e4e8ebef-567b-4179-915b-40a305d66178")
+		(uuid "655f5ab5-20de-4051-b172-046f3b36a49e")
 	)
 	(junction
-		(at 111.76 78.74)
+		(at 106.68 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f550b7b5-1c9f-4a9f-bbd3-c5055ca43f72")
+		(uuid "6879796a-907e-44d0-b781-c695e8b73a0c")
 	)
+	(junction
+		(at 167.64 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "850d2ebe-87de-41cc-9093-19307b589bc3")
+	)
+	(junction
+		(at 132.08 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88b8986d-7c13-4840-bee8-e665763dfba1")
+	)
+	(junction
+		(at 180.34 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7c2dcd0-9c5a-4fc0-a5b9-95f7ee1091ae")
+	)
+	(junction
+		(at 139.7 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fffb1a1a-d379-4080-a0fd-5023f14a655c")
+	)
+	(wire
+		(pts
+			(xy 167.64 139.7) (xy 167.64 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "04d5c43d-6716-4f23-9818-fab78efacb1b")
+	)
+	(wire
+		(pts
+			(xy 111.76 86.36) (xy 88.9 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "04eb65e3-e97a-4033-bb57-2a9471b1c202")
+	)
+	(wire
+		(pts
+			(xy 154.94 68.58) (xy 154.94 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0664621d-9ed5-4439-b012-f54e7c33b19a")
+	)
+	(wire
+		(pts
+			(xy 167.64 149.86) (xy 167.64 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0856f40f-7eca-4ab0-a40f-face635b3475")
+	)
 	(wire
 		(pts
-			(xy 124.46 146.05) (xy 124.46 143.51)
+			(xy 180.34 63.5) (xy 180.34 68.58)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "09a81405-7683-414f-acf7-bcbee6e01bb2")
+		(uuid "0ab9ec91-47a3-4b89-9b8b-564ef83e8302")
 	)
 	(wire
 		(pts
-			(xy 138.43 128.27) (xy 138.43 113.03)
+			(xy 132.08 134.62) (xy 139.7 134.62)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "0cd911af-6a2e-4116-9938-1a88b6b9832e")
+		(uuid "0b31076d-0076-4566-b573-3be280df949e")
 	)
 	(wire
 		(pts
-			(xy 88.9 148.59) (xy 88.9 140.97)
+			(xy 213.36 162.56) (xy 200.66 162.56)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "0d59ff84-6414-4b83-9a6f-cacbcbb6689e")
+		(uuid "0e2a4d3a-2ffb-4ef9-a964-55ef8a178ff9")
 	)
 	(wire
 		(pts
-			(xy 33.02 104.14) (xy 33.02 101.6)
+			(xy 132.08 142.24) (xy 132.08 134.62)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "1309567c-5894-4652-b81c-76c564efe368")
+		(uuid "0f0e9d1b-026c-43ba-8c1a-060fbe5869a4")
 	)
 	(wire
 		(pts
-			(xy 124.46 158.75) (xy 124.46 156.21)
+			(xy 167.64 83.82) (xy 167.64 78.74)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "16534e20-fa08-4886-a650-a8500e4f158a")
+		(uuid "120dee12-fe7a-4989-b0f5-00f821998769")
 	)
 	(wire
 		(pts
-			(xy 27.94 116.84) (xy 27.94 99.06)
+			(xy 180.34 78.74) (xy 180.34 86.36)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "204ca7d4-23fb-4bdd-b4d2-eb0b0ea1a82c")
+		(uuid "12924281-5a57-47cf-aba5-d1ff6f10650e")
 	)
 	(wire
 		(pts
-			(xy 161.29 123.19) (xy 148.59 123.19)
+			(xy 149.86 149.86) (xy 149.86 147.32)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "21c81bbb-cc1a-478d-8f17-12dd6d9865dc")
+		(uuid "15570594-65d5-492b-8b56-a2c4ffaf92fb")
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 149.86 86.36)
+			(xy 213.36 165.1) (xy 195.58 165.1)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "227fdd76-5273-43dc-a02b-d020f2f7f17c")
+		(uuid "17f7b6b8-0e17-4dfd-9611-a3b46515b83d")
 	)
 	(wire
 		(pts
-			(xy 99.06 140.97) (xy 99.06 143.51)
+			(xy 149.86 104.14) (xy 149.86 109.22)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "23f8450a-d729-463d-8e81-b249ece108d8")
+		(uuid "1fe24cbc-8052-46bb-89a8-f9ee49d86f00")
 	)
 	(wire
 		(pts
-			(xy 55.88 116.84) (xy 33.02 116.84)
+			(xy 88.9 88.9) (xy 88.9 86.36)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "24475d7d-a52e-473e-a46d-9c0676e4964e")
+		(uuid "24aff473-14c1-4db5-98c4-d560ba2ddd25")
 	)
 	(wire
 		(pts
-			(xy 109.22 161.29) (xy 109.22 143.51)
+			(xy 88.9 86.36) (xy 88.9 83.82)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "2b3b3c7a-d593-4497-b97e-5390a86720b2")
+		(uuid "2c751751-c2b0-48fb-bcba-09a437959c22")
 	)
 	(wire
 		(pts
-			(xy 124.46 78.74) (xy 124.46 83.82)
+			(xy 210.82 114.3) (xy 208.28 114.3)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "2bdd89dd-0598-4156-91d4-67251430ab67")
+		(uuid "34a1a4b4-3a16-4182-aebd-3f97d3c5f8e0")
 	)
 	(wire
 		(pts
-			(xy 91.44 96.52) (xy 99.06 96.52)
+			(xy 167.64 63.5) (xy 180.34 63.5)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "2c6818c3-1084-48d3-bac2-1a28c1b792a9")
+		(uuid "36456f40-8584-4272-9c23-99ca1ec25ebe")
 	)
 	(wire
 		(pts
-			(xy 91.44 119.38) (xy 93.98 119.38)
+			(xy 139.7 134.62) (xy 149.86 134.62)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "2dce9bf4-2e05-4090-a9a9-cec855da0e42")
+		(uuid "3c83c38f-130b-4f49-bb86-73297a7ceb3a")
 	)
 	(wire
 		(pts
-			(xy 154.94 99.06) (xy 154.94 91.44)
+			(xy 147.32 86.36) (xy 180.34 86.36)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "32a8bad9-55b2-4e6f-bcfc-b65941ec085c")
+		(uuid "402c8cee-c793-4388-8e1e-5940b4dbd646")
 	)
 	(wire
 		(pts
-			(xy 99.06 156.21) (xy 99.06 153.67)
+			(xy 198.12 119.38) (xy 198.12 109.22)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "344ebbbd-a5a3-4f12-b302-891036252387")
+		(uuid "42bc568e-936f-4eb0-84ec-bb5569fe16cb")
 	)
 	(wire
 		(pts
-			(xy 81.28 140.97) (xy 81.28 135.89)
+			(xy 132.08 160.02) (xy 139.7 160.02)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "35369ebd-562d-4249-adda-50f4530265c3")
+		(uuid "441a255e-5cc9-4460-89da-e687561352b1")
 	)
 	(wire
 		(pts
-			(xy 88.9 156.21) (xy 88.9 166.37)
+			(xy 147.32 83.82) (xy 167.64 83.82)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "353711d7-0e9e-4c8d-81b0-fb1e5896136b")
+		(uuid "443c71e8-100f-4b1d-9617-a811b488c28b")
 	)
 	(wire
 		(pts
-			(xy 161.29 130.81) (xy 133.35 130.81)
+			(xy 167.64 63.5) (xy 167.64 68.58)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "379c14f0-b6a0-4dab-b2d4-c812c85e77a9")
+		(uuid "46815d54-ae8b-4bee-94cc-a4b7ae435152")
 	)
 	(wire
 		(pts
-			(xy 99.06 166.37) (xy 99.06 163.83)
+			(xy 154.94 63.5) (xy 154.94 60.96)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "3cc5c194-6106-473f-8237-58cbb1d839ba")
+		(uuid "4b1ecb29-1d1b-4db7-a349-669578b3f124")
 	)
 	(wire
 		(pts
-			(xy 161.29 120.65) (xy 153.67 120.65)
+			(xy 147.32 81.28) (xy 154.94 81.28)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "415b5941-52e8-4358-b750-f70c139a0f20")
+		(uuid "50d96583-1e38-4461-975c-84affa40bef6")
 	)
 	(wire
 		(pts
-			(xy 55.88 106.68) (xy 55.88 101.6)
+			(xy 203.2 91.44) (xy 203.2 83.82)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "41f84aa1-ff69-4365-83d2-1c6370c27c00")
+		(uuid "56465383-b56a-4b3f-b970-e9087ae14033")
 	)
 	(wire
 		(pts
-			(xy 139.7 163.83) (xy 139.7 153.67)
+			(xy 208.28 129.54) (xy 210.82 129.54)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "4283e5f3-d5a8-4d9d-b63b-73542aaecfdc")
+		(uuid "656753ec-8dfe-402e-9ca2-fee73981baae")
 	)
 	(wire
 		(pts
-			(xy 149.86 156.21) (xy 149.86 153.67)
+			(xy 195.58 165.1) (xy 195.58 152.4)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "4408b002-1515-4bbc-9b98-d5f6a6160b3d")
+		(uuid "6724cf32-2d51-4537-a623-5f264a73f1a1")
 	)
 	(wire
 		(pts
-			(xy 116.84 146.05) (xy 116.84 143.51)
+			(xy 160.02 154.94) (xy 160.02 137.16)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "44a5d7cb-6246-4475-b8e1-c6308ed6416b")
+		(uuid "71017db2-890f-4112-bfec-594283eb0472")
 	)
 	(wire
 		(pts
-			(xy 154.94 91.44) (xy 157.48 91.44)
+			(xy 139.7 142.24) (xy 139.7 134.62)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "453f980f-9dc6-47eb-aef8-d139c97d25cf")
+		(uuid "722521a2-5786-486e-b7f2-ba8f50238f7c")
 	)
 	(wire
 		(pts
-			(xy 157.48 83.82) (xy 154.94 83.82)
+			(xy 208.28 132.08) (xy 208.28 129.54)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "464f233f-990c-413a-a13a-a1cad4b36a5c")
+		(uuid "7237e643-8194-4d1a-a383-3d6f85505761")
 	)
 	(wire
 		(pts
-			(xy 55.88 111.76) (xy 55.88 116.84)
+			(xy 111.76 101.6) (xy 88.9 101.6)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "478d72a1-aa49-45ba-baa0-fa3c5914d91e")
+		(uuid "75813c3e-52b1-4d3b-9cc8-5483504fe045")
 	)
 	(wire
 		(pts
-			(xy 152.4 158.75) (xy 144.78 158.75)
+			(xy 139.7 149.86) (xy 139.7 160.02)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "47ebca31-e99f-486c-97a1-1b3ba46a14fd")
+		(uuid "75af0bcb-ef8c-4a03-a9f5-5327853a577b")
 	)
 	(wire
 		(pts
-			(xy 158.75 118.11) (xy 158.75 113.03)
+			(xy 210.82 116.84) (xy 203.2 116.84)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "4e08d309-5a45-40a2-bd8a-c300883f3bf4")
+		(uuid "76bbac61-7ca2-4602-b1c9-e8cbe9074569")
 	)
 	(wire
 		(pts
-			(xy 116.84 161.29) (xy 109.22 161.29)
+			(xy 200.66 162.56) (xy 200.66 152.4)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "4e3259e2-45a6-4059-b0fb-b6186e259318")
+		(uuid "76bf9ff6-7bc7-401f-b334-2e6a25c6a5f5")
 	)
 	(wire
 		(pts
-			(xy 99.06 168.91) (xy 99.06 166.37)
+			(xy 88.9 101.6) (xy 83.82 101.6)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "57cb825b-95cf-4c9b-a173-58b0557f8278")
+		(uuid "7aea0316-f2a1-4da6-bb01-69948d578e08")
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 154.94 81.28)
+			(xy 111.76 81.28) (xy 106.68 81.28)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "59c8617d-a0fb-4c61-862c-6de1eee3e29a")
+		(uuid "7bdf69ba-f7c6-4f5b-ae2c-705fdec0fff8")
 	)
 	(wire
 		(pts
-			(xy 134.62 166.37) (xy 134.62 153.67)
+			(xy 187.96 124.46) (xy 187.96 109.22)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "5c965ef1-ed46-463a-bdb6-690a8d604cba")
+		(uuid "84588a45-368c-49e2-a6fa-85fec430d037")
 	)
 	(wire
 		(pts
-			(xy 50.8 96.52) (xy 50.8 93.98)
+			(xy 147.32 104.14) (xy 149.86 104.14)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "5e10f501-ac04-4e47-b56e-30a70b974515")
+		(uuid "86d44d44-02dd-4d1f-a38e-53f65128ae8e")
 	)
 	(wire
 		(pts
-			(xy 111.76 78.74) (xy 124.46 78.74)
+			(xy 154.94 81.28) (xy 157.48 81.28)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "5e5b5acb-ccb7-48f1-829c-4f601e2096eb")
+		(uuid "882388ab-417a-4155-80ee-4247ecf8899b")
 	)
 	(wire
 		(pts
-			(xy 50.8 83.82) (xy 50.8 76.2)
+			(xy 180.34 86.36) (xy 182.88 86.36)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "63a35ee7-2527-4ad8-8f58-f1d9e103bbe6")
+		(uuid "883434fe-e0dd-4bca-adee-e9633e60355a")
 	)
 	(wire
 		(pts
-			(xy 91.44 91.44) (xy 91.44 76.2)
+			(xy 193.04 81.28) (xy 193.04 73.66)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "6476e068-386a-42f2-843f-11ebeb64ef92")
+		(uuid "8b6b5dea-5746-4a2a-af21-774ffc4d6811")
 	)
 	(wire
 		(pts
-			(xy 55.88 101.6) (xy 33.02 101.6)
+			(xy 83.82 101.6) (xy 83.82 83.82)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "67a253bf-7c51-4f27-a012-14111ce632e3")
+		(uuid "9149e1b9-ff96-4afb-9925-50dd46eb001c")
 	)
 	(wire
 		(pts
-			(xy 99.06 78.74) (xy 99.06 76.2)
+			(xy 210.82 154.94) (xy 210.82 152.4)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "6adbb8e1-48da-45f1-ac0f-5d991d213599")
+		(uuid "96bba10c-f803-42eb-a0cc-18f6b1e005ef")
 	)
 	(wire
 		(pts
-			(xy 153.67 120.65) (xy 153.67 113.03)
+			(xy 205.74 78.74) (xy 198.12 78.74)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "70215a29-76b4-472c-827a-91a84561a0d7")
+		(uuid "9f7063ef-fa75-4054-933a-51eb2ffa17be")
 	)
 	(wire
 		(pts
-			(xy 161.29 128.27) (xy 138.43 128.27)
+			(xy 203.2 76.2) (xy 203.2 73.66)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "7d71b4dc-07ce-4b77-b045-3aa798d9d0be")
+		(uuid "a1158772-4cb7-487e-bea3-b83aadd751fc")
 	)
 	(wire
 		(pts
-			(xy 143.51 125.73) (xy 143.51 113.03)
+			(xy 182.88 127) (xy 182.88 109.22)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "7fcd5dfc-11d1-4a43-9324-dcd7f61a3248")
+		(uuid "a378deeb-ce01-43b2-ab99-d6cbf7d9ab38")
 	)
 	(wire
 		(pts
-			(xy 81.28 148.59) (xy 81.28 140.97)
+			(xy 210.82 119.38) (xy 198.12 119.38)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "81113739-2789-4938-9ae6-5a21e7d5cfda")
+		(uuid "a51f5a33-928e-4e8c-8dea-8b4979d45667")
 	)
 	(wire
 		(pts
-			(xy 111.76 78.74) (xy 111.76 83.82)
+			(xy 167.64 83.82) (xy 170.18 83.82)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "82891655-40b2-4e06-8fe4-a3cdab4c43e7")
+		(uuid "a65854b1-2a0c-449c-9f21-4c406d55c7ff")
 	)
 	(wire
 		(pts
-			(xy 33.02 101.6) (xy 33.02 99.06)
+			(xy 203.2 116.84) (xy 203.2 109.22)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "8453be50-8af9-4fa4-8287-5d0d53119189")
+		(uuid "af0a2853-4c2f-4be4-abb0-436fe6bad3c2")
 	)
 	(wire
 		(pts
-			(xy 55.88 96.52) (xy 50.8 96.52)
+			(xy 149.86 162.56) (xy 149.86 160.02)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "8a718784-7acc-4119-ba93-e492899d1fd9")
+		(uuid "b41b2bfb-c657-4bdc-a3b9-f3cdb21bb4e8")
 	)
 	(wire
 		(pts
-			(xy 111.76 99.06) (xy 111.76 93.98)
+			(xy 154.94 81.28) (xy 154.94 78.74)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "8cdcf2e0-c14e-47bf-b7e6-941b9b3d32cf")
+		(uuid "b705be27-2872-4b4c-b89e-b982d6208bcf")
 	)
 	(wire
 		(pts
-			(xy 116.84 156.21) (xy 116.84 161.29)
+			(xy 132.08 149.86) (xy 132.08 160.02)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "90d8490f-5455-4d96-9e23-b0d41bd8ddc4")
+		(uuid "b7aeb2b7-1260-4e16-ad64-cd18c84926ae")
 	)
 	(wire
 		(pts
-			(xy 158.75 133.35) (xy 161.29 133.35)
+			(xy 147.32 76.2) (xy 147.32 60.96)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "91ce7efa-1af0-4c64-9e8b-5adbef9b1efe")
+		(uuid "b819ee72-7f4a-492e-a93e-89f51e7a2224")
 	)
 	(wire
 		(pts
-			(xy 91.44 101.6) (xy 124.46 101.6)
+			(xy 149.86 134.62) (xy 149.86 137.16)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "9bde1581-a269-4389-a6d8-53fb55a206ca")
+		(uuid "b8fc0f0b-f889-4af5-adb2-9783c045eb58")
 	)
 	(wire
 		(pts
-			(xy 157.48 88.9) (xy 144.78 88.9)
+			(xy 210.82 121.92) (xy 193.04 121.92)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "9cdd5f8c-8e5a-4d8a-8815-3512dd16db28")
+		(uuid "bbe20e79-36b3-40db-b699-c376a3d913b6")
 	)
 	(wire
 		(pts
-			(xy 158.75 135.89) (xy 158.75 133.35)
+			(xy 88.9 99.06) (xy 88.9 101.6)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "9db91ba7-3644-4be3-9086-2c01481b9f4d")
+		(uuid "c000ee55-5280-4c75-8b05-00f2d84bc82d")
 	)
 	(wire
 		(pts
-			(xy 88.9 140.97) (xy 99.06 140.97)
+			(xy 208.28 114.3) (xy 208.28 109.22)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "b7cf3ac9-d972-45f6-a0c2-b1b3f5755fc2")
+		(uuid "c2376634-1220-47bc-be98-b0f2410b2b6f")
 	)
 	(wire
 		(pts
-			(xy 133.35 130.81) (xy 133.35 113.03)
+			(xy 210.82 127) (xy 182.88 127)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "b9a6564d-c2f2-4577-894d-b5c6ad19e614")
+		(uuid "c38e707c-d7ea-4453-965b-883bf39ebd7b")
 	)
 	(wire
 		(pts
-			(xy 99.06 83.82) (xy 99.06 78.74)
+			(xy 149.86 160.02) (xy 149.86 157.48)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "bc5eb575-9307-48ae-94b1-beeca96dd639")
+		(uuid "c39b73f4-9f36-4f25-b9af-f827b01a7232")
 	)
 	(wire
 		(pts
-			(xy 81.28 166.37) (xy 88.9 166.37)
+			(xy 111.76 91.44) (xy 111.76 86.36)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "c1c50194-2322-420d-b840-52eafba82ed2")
+		(uuid "ca6f6c6d-f354-4085-ae8b-2248acf26a05")
 	)
 	(wire
 		(pts
-			(xy 81.28 156.21) (xy 81.28 166.37)
+			(xy 175.26 152.4) (xy 175.26 149.86)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "c4b41127-fcee-4ecb-a521-421ed4fc8e48")
+		(uuid "cfa31075-1110-4903-b06e-a06aeffffb58")
 	)
 	(wire
 		(pts
-			(xy 144.78 88.9) (xy 144.78 81.28)
+			(xy 198.12 78.74) (xy 198.12 73.66)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "c6437efb-6ea2-4610-8ddc-7293c59afcc5")
+		(uuid "d1e50137-d1f5-42fc-bb1a-a9498e95e09c")
 	)
 	(wire
 		(pts
-			(xy 161.29 125.73) (xy 143.51 125.73)
+			(xy 106.68 81.28) (xy 106.68 78.74)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "ca8fb439-7cd9-456a-b50f-768798b30c73")
+		(uuid "d266f5aa-4dd8-41ec-8477-5817ae2775d5")
 	)
 	(wire
 		(pts
-			(xy 99.06 96.52) (xy 99.06 93.98)
+			(xy 175.26 139.7) (xy 175.26 137.16)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "cf97a18d-82e3-4f53-bd6f-890759a424e3")
+		(uuid "d29cb93a-b6ce-42c5-83d1-f541b1d1079b")
 	)
 	(wire
 		(pts
-			(xy 99.06 78.74) (xy 111.76 78.74)
+			(xy 205.74 76.2) (xy 203.2 76.2)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "d0839eb5-0e58-4ad0-a1e1-36ed35ff155b")
+		(uuid "d3505a7b-c0d3-44ce-9a53-6c7ecc2d5ace")
 	)
 	(wire
 		(pts
-			(xy 152.4 156.21) (xy 149.86 156.21)
+			(xy 193.04 121.92) (xy 193.04 109.22)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "d52b5c75-136c-4221-8ac6-43a9e5e0ca5a")
+		(uuid "d37c775f-9e13-4134-a2a4-40dc3e49f9a7")
 	)
 	(wire
 		(pts
-			(xy 33.02 116.84) (xy 27.94 116.84)
+			(xy 106.68 81.28) (xy 101.6 81.28)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "d5cf50f4-49bc-4913-917a-44603d5a4493")
+		(uuid "d5c57dbd-30bf-45b3-b59b-4753b8593082")
 	)
 	(wire
 		(pts
-			(xy 161.29 118.11) (xy 158.75 118.11)
+			(xy 111.76 96.52) (xy 111.76 101.6)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "d6b2ae62-7ee6-46ff-94d6-03731e0ce4ee")
+		(uuid "d74e95da-c5f7-4ed2-b953-484df63abcb9")
 	)
 	(wire
 		(pts
-			(xy 93.98 119.38) (xy 93.98 124.46)
+			(xy 210.82 124.46) (xy 187.96 124.46)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "d81afc33-2542-49cd-bfa7-acd38ab5fb92")
+		(uuid "e598bf94-bab3-4e5c-90f7-8e2deaaee0a0")
 	)
 	(wire
 		(pts
-			(xy 152.4 163.83) (xy 139.7 163.83)
+			(xy 213.36 154.94) (xy 210.82 154.94)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "d95c7aeb-ea44-4f77-90d2-8564a8ecabf5")
+		(uuid "e6d3cb45-bb03-4d35-9226-9aeebc034943")
 	)
 	(wire
 		(pts
-			(xy 148.59 123.19) (xy 148.59 113.03)
+			(xy 203.2 83.82) (xy 205.74 83.82)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "dba49b7f-6c31-497a-8c35-78278c60f6d1")
+		(uuid "e76d4c52-cf34-4bed-b4d6-73f3307e7a67")
 	)
 	(wire
 		(pts
-			(xy 88.9 166.37) (xy 99.06 166.37)
+			(xy 205.74 157.48) (xy 205.74 152.4)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "dd0d917a-82ae-4fe5-bc4e-5efab225deda")
+		(uuid "e9e96868-aa02-4174-8b05-bc756b74abce")
 	)
 	(wire
 		(pts
-			(xy 149.86 86.36) (xy 149.86 81.28)
+			(xy 139.7 160.02) (xy 149.86 160.02)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "ea765086-1ab1-4fc2-9921-4840b860c879")
+		(uuid "ea77e1de-5ab7-442f-8413-bdaaad3322c5")
 	)
 	(wire
 		(pts
-			(xy 81.28 140.97) (xy 88.9 140.97)
+			(xy 132.08 134.62) (xy 132.08 129.54)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "ecb4953d-283e-4500-988a-73fb72ad96f3")
+		(uuid "ec70637c-cfce-4f38-9b27-0eebe5936587")
 	)
 	(wire
 		(pts
-			(xy 124.46 93.98) (xy 124.46 101.6)
+			(xy 205.74 81.28) (xy 193.04 81.28)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "ed2c75a1-e4ed-44e9-bc72-03c415794c0e")
+		(uuid "ee092c5e-c73e-4f1d-b36f-b4c84838e2f2")
 	)
 	(wire
 		(pts
-			(xy 144.78 158.75) (xy 144.78 153.67)
+			(xy 213.36 157.48) (xy 205.74 157.48)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "efe68f2c-9c9a-48d4-83eb-d1ef0e56ba20")
+		(uuid "f4b53c48-af77-4c0d-b542-8321e4f7d73c")
 	)
 	(wire
 		(pts
-			(xy 152.4 166.37) (xy 134.62 166.37)
+			(xy 154.94 63.5) (xy 167.64 63.5)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "f0838357-8cb5-4a92-84bf-fa892aa71309")
+		(uuid "f5fda33a-c25b-4783-9481-efd201e412b7")
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 111.76 99.06)
+			(xy 106.68 68.58) (xy 106.68 60.96)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "f87eede0-f337-437f-ae01-559e8b96668e")
+		(uuid "fc0bcc1e-db62-42fc-888c-270c415d0f21")
 	)
 	(wire
 		(pts
-			(xy 33.02 114.3) (xy 33.02 116.84)
+			(xy 167.64 154.94) (xy 160.02 154.94)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "fb370d2c-7b16-4ce4-bd66-4992dd5d9071")
+		(uuid "fef2a540-68e9-4186-828f-c80e743c9612")
 	)
 	(label "VDD"
-		(at 133.35 113.03 90)
+		(at 195.58 152.4 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "07a33c28-34b7-4444-b5dd-eb31444ab675")
-	)
-	(label "RO"
-		(at 125.73 101.6 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "1478c56e-3e29-4a48-a296-6e61dc44f2b9")
-	)
-	(label "VCC"
-		(at 91.44 76.2 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "18a1adcf-bddc-429e-91b9-63eead331dfe")
+		(uuid "065c1f57-9634-472b-8f4d-8c9303db679b")
 	)
 	(label "B"
-		(at 27.94 99.06 90)
+		(at 193.04 73.66 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "55d9f6bd-b279-4e8b-8e84-997faa97f1b1")
-	)
-	(label "VCC"
-		(at 81.28 135.89 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d0e52b8-caa4-49fc-94bc-775accc6b091")
-	)
-	(label "A"
-		(at 116.84 143.51 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ec4249b-a64d-4fe4-adaa-80fed3932556")
+		(uuid "1956d966-944b-4ff7-8a5c-a254ffd3bf05")
 	)
 	(label "B"
-		(at 124.46 143.51 90)
+		(at 175.26 137.16 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "7693ff60-9209-4be9-bedd-3a109b270711")
-	)
-	(label "RO"
-		(at 143.51 113.03 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a6d28b0-bec7-49fd-812f-8cba9b7e29c5")
-	)
-	(label "DE"
-		(at 113.03 99.06 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "81c5760a-530f-4280-acc3-d30b96d74249")
-	)
-	(label "VDD"
-		(at 134.62 153.67 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "8dd8ce75-866c-4c08-8d7c-ba7318def21b")
-	)
-	(label "VDD"
-		(at 133.35 113.03 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "9310153f-356d-4c2c-8927-871ebe450a7d")
-	)
-	(label "RE"
-		(at 100.33 96.52 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "95d7d555-5c6c-48f0-aec9-967972871b3f")
-	)
-	(label "VDD_1"
-		(at 139.7 153.67 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b1a5291-f68b-4003-a5ca-3f7f7cceae80")
-	)
-	(label "RE"
-		(at 148.59 113.03 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0faf3b3-e6ea-466f-8c4d-f7e6962c0815")
+		(uuid "23ee4002-2d2e-4e0d-b35b-d885b87b4710")
 	)
 	(label "DI"
-		(at 158.75 113.03 90)
+		(at 208.28 109.22 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "a9a54861-096e-4184-8cfb-b6d3668251c6")
+		(uuid "251db7d4-0219-4fd9-a3e1-71f1674b0098")
 	)
-	(label "A"
-		(at 149.86 81.28 90)
+	(label "RE"
+		(at 157.48 81.28 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "aa5df455-6b37-4913-8877-672a5488e626")
-	)
-	(label "VCC"
-		(at 138.43 113.03 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "aab70688-74e0-4cc2-a0dd-99e2e0749222")
-	)
-	(label "A"
-		(at 33.02 99.06 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4ac7d5f-eb71-4a2c-9ac4-0b2b63a9b48c")
-	)
-	(label "VCC"
-		(at 144.78 153.67 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba085b11-b484-4d3c-a898-c6580d8129a9")
+		(uuid "3704c3af-fa32-41f2-ac1f-349d7b977e4c")
 	)
 	(label "VDD_1"
-		(at 50.8 76.2 90)
+		(at 210.82 152.4 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "c97e20eb-5581-4575-93f3-7eba11a9ec13")
-	)
-	(label "VDD_1"
-		(at 99.06 76.2 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "d211f648-0b6d-4582-a6bb-6c845140d210")
+		(uuid "3d78345f-af88-49db-a084-f86b73d6d4ac")
 	)
 	(label "VCC"
-		(at 154.94 81.28 90)
+		(at 205.74 152.4 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "d615df9e-c92b-46b7-acef-87282b94823d")
+		(uuid "3d7dda12-b6a9-40c0-aa23-3d1e2f716598")
+	)
+	(label "VDD_1"
+		(at 106.68 60.96 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "46cae09a-32a0-40fa-b206-d933c17db129")
+	)
+	(label "VCC"
+		(at 160.02 137.16 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "46da7490-2863-4370-aafa-265e0f981770")
+	)
+	(label "VDD"
+		(at 182.88 109.22 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f47cd0e-3428-4fd0-ac06-3ff0ffbb0ce7")
+	)
+	(label "RE"
+		(at 198.12 109.22 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "522c204f-6c73-4f53-af75-b133b8e3ae85")
+	)
+	(label "VDC"
+		(at 203.2 73.66 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "5299d696-212d-4965-9876-02d315a8ae9b")
+	)
+	(label "VDD_1"
+		(at 154.94 60.96 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bbe656c-a7e0-43fc-a4bd-7ddc13cb4ae7")
+	)
+	(label "RO"
+		(at 193.04 109.22 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "7546a927-570e-46a3-8d20-8ca534005f73")
+	)
+	(label "A"
+		(at 167.64 137.16 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "88957d24-8e1d-4bae-b2c6-0cd9d3e82aac")
 	)
 	(label "B"
-		(at 144.78 81.28 90)
+		(at 83.82 83.82 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "d8cfb590-9523-47c0-97b4-4e4a9ab96d44")
+		(uuid "98d04fc1-8a0d-4130-87e1-72474e5ab00d")
 	)
-	(label "DE"
-		(at 153.67 113.03 90)
+	(label "A"
+		(at 88.9 83.82 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "d9a9fd9f-0a6b-44fb-925e-e4faf9dc0859")
+		(uuid "a1ae05fe-441b-4634-aa1b-02ed0e4c51e3")
 	)
 	(label "VCC"
-		(at 109.22 143.51 90)
+		(at 147.32 60.96 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "e98b7c78-b13d-4bfa-942c-7ffac3cbbe70")
+		(uuid "a1f90211-c903-4e26-81c5-221491bf87cf")
+	)
+	(label "DE"
+		(at 170.18 83.82 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "a45da4d6-1ae1-4569-a70a-ba19168730b1")
+	)
+	(label "DE"
+		(at 203.2 109.22 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae1907f8-9998-415f-b04a-edef4c84cf9e")
+	)
+	(label "VCC"
+		(at 132.08 129.54 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba32ac40-ef60-4ebf-9f1d-bcfe813a0d41")
+	)
+	(label "VDD"
+		(at 182.88 109.22 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb5bf567-887b-423e-944d-9bda69f21891")
 	)
 	(label "VDD_1"
-		(at 149.86 153.67 90)
+		(at 200.66 152.4 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "ea5ab32e-70c3-4fda-a576-884cf78e239f")
+		(uuid "cb689896-47be-46ef-8057-117369fcb146")
 	)
 	(label "DI"
-		(at 49.53 96.52 180)
+		(at 101.6 81.28 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify right bottom)
 		)
-		(uuid "f15ce9a5-d90a-42b9-acfb-8a58e286e640")
+		(uuid "d0a59443-cd3c-48ac-a4dd-b1f70fa31cb6")
+	)
+	(label "VCC"
+		(at 187.96 109.22 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4e644c4-b8b8-44dc-9c22-f14d00bf81b4")
+	)
+	(label "A"
+		(at 198.12 73.66 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "e958af7c-cc48-4b5c-aec8-b23f8364619a")
+	)
+	(label "RO"
+		(at 182.88 86.36 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f780cecf-3276-4483-8d4a-7276ad0b7a00")
 	)
 	(symbol
 		(lib_id "rs485-lowpower-eagle-import:C-EUC1206")
-		(at 88.9 151.13 0)
+		(at 139.7 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2726,9 +3516,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "08cb614f-c7e6-474f-bfde-eb6a853e18e0")
+		(uuid "15a60c3f-c0e6-4042-ad80-b0b3e673482e")
 		(property "Reference" "C9"
-			(at 90.424 150.749 0)
+			(at 141.224 144.399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2739,7 +3529,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 90.424 155.829 0)
+			(at 141.224 149.479 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2750,7 +3540,7 @@
 			)
 		)
 		(property "Footprint" "rs485-lowpower:C1206"
-			(at 88.9 151.13 0)
+			(at 139.7 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2761,7 +3551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 151.13 0)
+			(at 139.7 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2772,7 +3562,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 151.13 0)
+			(at 139.7 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2783,20 +3573,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "88bf71c0-6141-4441-af2d-3af6cd746e1d")
+			(uuid "126022a9-45d2-42b3-b98b-1d392237c90a")
 		)
 		(pin "2"
-			(uuid "095b69ad-891f-466d-a270-ce696fafc816")
+			(uuid "644a7ca4-e8ad-4744-b8da-87f2c38744ce")
 		)
 		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "C9")
-					(unit 1)
-				)
-			)
 			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
 					(reference "C9")
 					(unit 1)
 				)
@@ -2805,7 +3589,7 @@
 	)
 	(symbol
 		(lib_id "rs485-lowpower-eagle-import:22-23-2021")
-		(at 154.94 156.21 0)
+		(at 215.9 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2813,9 +3597,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0da39199-61ef-4bae-b772-45d7faeb5225")
-		(property "Reference" "UNK5V0"
-			(at 157.48 156.972 0)
+		(uuid "20c9d2f4-c9cb-4461-9a53-cbcda15959c6")
+		(property "Reference" "UNK3.3V0"
+			(at 218.44 163.322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2826,7 +3610,7 @@
 			)
 		)
 		(property "Value" "VAC"
-			(at 154.178 154.813 0)
+			(at 215.138 161.163 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2838,7 +3622,7 @@
 			)
 		)
 		(property "Footprint" "rs485-lowpower:22-23-2021"
-			(at 154.94 156.21 0)
+			(at 215.9 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2849,7 +3633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 156.21 0)
+			(at 215.9 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2860,7 +3644,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 156.21 0)
+			(at 215.9 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2871,29 +3655,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb6e7454-31c7-42c4-b6ab-17a87a34189b")
+			(uuid "e175970d-7537-4e07-b62c-aefa81839b14")
 		)
 		(pin "2"
-			(uuid "80560a88-97cf-4efe-8627-9273ea4639a3")
+			(uuid "1626b8c5-8fa4-4253-b97b-6ec04f217608")
 		)
 		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "UNK5V0")
-					(unit 1)
-				)
-			)
 			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "UNK5V0")
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "UNK3.3V0")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "rs485-lowpower-eagle-import:GND")
-		(at 93.98 127 0)
+		(lib_id "rs485-lowpower-eagle-import:MA07-1")
+		(at 218.44 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2901,20 +3679,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1e45221c-386b-428b-88d5-666b7da8a330")
-		(property "Reference" "#SUPPLY7"
-			(at 93.98 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.075 130.175 0)
+		(uuid "269353fb-2492-42e0-8bce-10171ad5f9ad")
+		(property "Reference" "MCU0"
+			(at 219.71 132.842 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2924,8 +3691,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at 93.98 127 0)
+		(property "Value" "MA07-1"
+			(at 219.71 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "rs485-lowpower:MA07-1"
+			(at 218.44 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2936,7 +3714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 127 0)
+			(at 218.44 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2947,7 +3725,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 127 0)
+			(at 218.44 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2958,18 +3736,30 @@
 			)
 		)
 		(pin "1"
-			(uuid "62c3640b-9194-41cf-8d8f-d4a2a4112379")
+			(uuid "0a67d7a3-3bd0-4dc4-a68d-ea222092b0c1")
+		)
+		(pin "2"
+			(uuid "5552b355-4aea-4a1a-9adf-b2810b72298b")
+		)
+		(pin "3"
+			(uuid "6030811b-ee36-4498-88c1-a07bf6ab379f")
+		)
+		(pin "4"
+			(uuid "ca7eb11c-4057-4aec-aede-691876456f28")
+		)
+		(pin "5"
+			(uuid "eddf6b12-2108-4312-b568-5bda2f5d6f7d")
+		)
+		(pin "6"
+			(uuid "ba628e8d-ef7a-497e-9b53-36d650294ecb")
+		)
+		(pin "7"
+			(uuid "33dec6bf-b8d9-4b3f-ad1b-bcd2adb6397c")
 		)
 		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "#SUPPLY7")
-					(unit 1)
-				)
-			)
 			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "#SUPPLY7")
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "MCU0")
 					(unit 1)
 				)
 			)
@@ -2977,7 +3767,7 @@
 	)
 	(symbol
 		(lib_id "rs485-lowpower-eagle-import:GND")
-		(at 99.06 171.45 0)
+		(at 149.86 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2985,9 +3775,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3a38cb9f-94c6-49a8-b38c-5d73cb196fa4")
+		(uuid "33881660-58d4-45b3-ab6c-b2d05399f509")
 		(property "Reference" "#SUPPLY8"
-			(at 99.06 171.45 0)
+			(at 149.86 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2998,7 +3788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.155 174.625 0)
+			(at 147.955 168.275 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3009,7 +3799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 171.45 0)
+			(at 149.86 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3020,7 +3810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 171.45 0)
+			(at 149.86 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3031,7 +3821,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 171.45 0)
+			(at 149.86 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3042,18 +3832,811 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce7bb983-69b2-4318-a3b7-458aa9353197")
+			(uuid "a5fd8ac2-3d93-42a0-8c57-55d06c8a6a1a")
 		)
 		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
+			(project "rs485-lowpower"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
 					(reference "#SUPPLY8")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "rs485-lowpower-eagle-import:C-EUC1206")
+		(at 132.08 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a8ec578-2068-4164-aac8-d5629cfdbe01")
+		(property "Reference" "C8"
+			(at 133.604 144.399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10u"
+			(at 133.604 149.479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "rs485-lowpower:C1206"
+			(at 132.08 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1f12c27a-5079-4ce8-8abb-c6cc9973f110")
+		)
+		(pin "1"
+			(uuid "7ab75715-bb26-48fe-bfe3-a36d3388769a")
+		)
+		(instances
 			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "#SUPPLY8")
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rs485-lowpower-eagle-import:GND")
+		(at 175.26 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d14b7e4-ee8d-4362-a8de-890532aeaa8e")
+		(property "Reference" "#SUPPLY3"
+			(at 175.26 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.355 158.115 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0d91f6f-206f-45c5-a3a6-e37ce08315fb")
+		)
+		(instances
+			(project "rs485-lowpower"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "#SUPPLY3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rs485-lowpower-eagle-import:GND")
+		(at 203.2 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4602c111-2be8-4941-98e6-2d2f0408974b")
+		(property "Reference" "#SUPPLY2"
+			(at 203.2 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.295 97.155 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8c0753a-82f6-4ea9-b8cd-4b84de8eace8")
+		)
+		(instances
+			(project "rs485-lowpower"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "#SUPPLY2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rs485-lowpower-eagle-import:LEDSML0805")
+		(at 149.86 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "593666aa-85e0-4ce0-99ba-6dd50b30bd63")
+		(property "Reference" "LED1"
+			(at 153.416 159.512 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LEDSML0805"
+			(at 155.575 156.972 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "rs485-lowpower:SML0805"
+			(at 149.86 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "a65418d9-dc91-4a7b-b8a2-dbd2bb720650")
+		)
+		(pin "C"
+			(uuid "3d97e4d8-5056-48da-991f-b97edc17ee34")
+		)
+		(instances
+			(project "rs485-lowpower"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rs485-lowpower-eagle-import:R-EU_R0805")
+		(at 175.26 144.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d435af7-5384-466e-bffe-7de38f261504")
+		(property "Reference" "R8"
+			(at 173.7614 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "20k"
+			(at 178.562 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "rs485-lowpower:R0805"
+			(at 175.26 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cc6415c-0cf5-4960-adf6-a34106dffa7f")
+		)
+		(pin "2"
+			(uuid "9e14aaea-40ef-48f9-9bd4-30e43924a852")
+		)
+		(instances
+			(project "rs485-lowpower"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rs485-lowpower-eagle-import:R-EU_R0805")
+		(at 180.34 73.66 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7615b57a-e099-4572-b45d-f935cb3c37a4")
+		(property "Reference" "R5"
+			(at 181.8386 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 177.038 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "rs485-lowpower:R0805"
+			(at 180.34 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "676b567c-635a-4718-8fdb-11f8f45741f4")
+		)
+		(pin "1"
+			(uuid "66799431-b2cd-4d7f-b12a-fd961aaef764")
+		)
+		(instances
+			(project "rs485-lowpower"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rs485-lowpower-eagle-import:22-23-2021")
+		(at 215.9 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81e428d0-4497-43bf-aa4d-15c6717845c3")
+		(property "Reference" "UNK5V0"
+			(at 218.44 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VAC"
+			(at 215.138 153.543 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "rs485-lowpower:22-23-2021"
+			(at 215.9 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8a17ea9e-6ac4-40ac-89eb-e31ba105c803")
+		)
+		(pin "1"
+			(uuid "9a2d024f-5df8-4ee0-a66c-bbeadd8733ce")
+		)
+		(instances
+			(project "rs485-lowpower"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "UNK5V0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rs485-lowpower-eagle-import:R-EU_R0805")
+		(at 88.9 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "869ff8aa-598f-45ef-8889-91fd7866d57c")
+		(property "Reference" "R2"
+			(at 90.3986 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "120"
+			(at 85.598 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "rs485-lowpower:R0805"
+			(at 88.9 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "463b2e35-9603-4340-b63d-e789068abb2a")
+		)
+		(pin "2"
+			(uuid "4ec40555-eb78-4db1-9672-840702b07c6d")
+		)
+		(instances
+			(project "rs485-lowpower"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rs485-lowpower-eagle-import:GND")
+		(at 208.28 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88bf64d5-8178-4aa3-a01e-1b89bc7fb8e6")
+		(property "Reference" "#SUPPLY1"
+			(at 208.28 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 206.375 137.795 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32e04777-b39a-4049-b7eb-dfc296635210")
+		)
+		(instances
+			(project "rs485-lowpower"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "#SUPPLY1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rs485-lowpower-eagle-import:GND")
+		(at 149.86 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c3af91e-c947-4f37-93c8-bec55978c3c2")
+		(property "Reference" "#SUPPLY7"
+			(at 149.86 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.955 114.935 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8fd2fce-19c5-4bc1-83db-43dbdd75af34")
+		)
+		(instances
+			(project "rs485-lowpower"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "#SUPPLY7")
 					(unit 1)
 				)
 			)
@@ -3061,7 +4644,7 @@
 	)
 	(symbol
 		(lib_id "rs485-lowpower-eagle-import:282837-4")
-		(at 167.64 88.9 0)
+		(at 215.9 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3069,9 +4652,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "49120931-7cb2-4b0f-a621-782167fc56a1")
+		(uuid "a0767297-1aea-4ca2-bb8b-eb0c3f310a22")
 		(property "Reference" "RS485-UGMLPV1.0"
-			(at 167.64 68.577 0)
+			(at 215.9 68.577 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3083,7 +4666,7 @@
 			)
 		)
 		(property "Value" "282837-4"
-			(at 166.116 99.06 0)
+			(at 215.9 91.452 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3094,7 +4677,7 @@
 			)
 		)
 		(property "Footprint" "rs485-lowpower:TE_282837-4"
-			(at 167.64 88.9 0)
+			(at 215.9 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3105,7 +4688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 88.9 0)
+			(at 215.9 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3116,7 +4699,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 88.9 0)
+			(at 215.9 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3125,37 +4708,31 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "4"
-			(uuid "51602712-1c07-4a15-85e8-5ee35946e248")
-		)
-		(pin "2"
-			(uuid "f73f7507-28aa-448b-98ee-d79fdad7e641")
 		)
 		(pin "3"
-			(uuid "ed17e14e-2e38-4159-a85a-08b273d36114")
+			(uuid "64beefd8-71f0-46de-a405-9ad9a277f0cb")
+		)
+		(pin "4"
+			(uuid "b0053a91-eda7-4cd4-953f-20516285e46c")
+		)
+		(pin "2"
+			(uuid "c660db2b-9a1a-4f0b-80be-248fd82aad29")
 		)
 		(pin "1"
-			(uuid "cdb65ab2-ea93-406b-9190-87c4aabac346")
+			(uuid "e6d755f0-52aa-4331-800c-7ebbe7559203")
 		)
 		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
+			(project "rs485-lowpower"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
 					(reference "RS485-UGMLPV1.0")
 					(unit 1)
 				)
 			)
-			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "RS485-UGMLPV1.0")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
 		(lib_id "rs485-lowpower-eagle-import:R-EU_R0805")
-		(at 33.02 109.22 270)
+		(at 167.64 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3163,439 +4740,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4a455033-16b0-48af-a0db-e57c8e266333")
-		(property "Reference" "R2"
-			(at 34.5186 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "120"
-			(at 29.718 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "rs485-lowpower:R0805"
-			(at 33.02 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15851cc1-e083-4835-886f-5eb3cb4ed122")
-		)
-		(pin "2"
-			(uuid "58ba9686-ca20-4931-aff4-a424ffbcb5b0")
-		)
-		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rs485-lowpower-eagle-import:GND")
-		(at 158.75 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "550300e1-eea5-4cb0-b394-244058357813")
-		(property "Reference" "#SUPPLY1"
-			(at 158.75 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.845 141.605 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c6ebf6d1-fc02-4111-b722-bd5b22a2f674")
-		)
-		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "#SUPPLY1")
-					(unit 1)
-				)
-			)
-			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "#SUPPLY1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rs485-lowpower-eagle-import:R-EU_R0805")
-		(at 124.46 88.9 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "55464221-fdb9-4484-b41c-91249b86281b")
-		(property "Reference" "R5"
-			(at 125.9586 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 121.158 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "rs485-lowpower:R0805"
-			(at 124.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "decc8acb-f3b4-426e-b725-a35fe116c3ca")
-		)
-		(pin "2"
-			(uuid "3d2e9ed6-10ad-437f-8c97-620e149555d0")
-		)
-		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rs485-lowpower-eagle-import:22-23-2021")
-		(at 154.94 166.37 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "594fa398-4357-46fe-8fce-8c9ada4ddef6")
-		(property "Reference" "UNK3.3V0"
-			(at 157.48 167.132 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.2954)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "VAC"
-			(at 154.178 164.973 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "rs485-lowpower:22-23-2021"
-			(at 154.94 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "35c85524-e0eb-4a0c-a3ac-e8576e52e68b")
-		)
-		(pin "1"
-			(uuid "0d911fa3-b656-41e4-a8f8-e1ce9a6c6233")
-		)
-		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "UNK3.3V0")
-					(unit 2)
-				)
-			)
-			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "UNK3.3V0")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rs485-lowpower-eagle-import:GND")
-		(at 154.94 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5ba1152c-1ec3-4eae-a413-8d37283eda1d")
-		(property "Reference" "#SUPPLY2"
-			(at 154.94 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 153.035 104.775 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b36ab3a5-d45a-41b8-9fc1-afb5d0dd34ff")
-		)
-		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "#SUPPLY2")
-					(unit 1)
-				)
-			)
-			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "#SUPPLY2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rs485-lowpower-eagle-import:R-EU_R0805")
-		(at 116.84 151.13 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "61fe3ebb-e7a9-414e-9a27-499254f3ea77")
+		(uuid "b0602583-d139-4d26-b03e-0fdfebabe05f")
 		(property "Reference" "R7"
-			(at 115.3414 154.94 0)
+			(at 166.1414 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3606,7 +4753,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 120.142 154.94 0)
+			(at 170.942 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3617,7 +4764,7 @@
 			)
 		)
 		(property "Footprint" "rs485-lowpower:R0805"
-			(at 116.84 151.13 0)
+			(at 167.64 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3628,7 +4775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 151.13 0)
+			(at 167.64 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3639,7 +4786,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 151.13 0)
+			(at 167.64 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3650,20 +4797,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f801909d-9c64-426f-afdb-ee95401be8d8")
+			(uuid "7b99422a-ebe9-43e3-8422-8fa72590217b")
 		)
 		(pin "2"
-			(uuid "37decb38-34c5-4b15-a12b-108cfe50ab93")
+			(uuid "b357bd85-f683-41a3-89e2-eecfed874f74")
 		)
 		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "R7")
-					(unit 1)
-				)
-			)
 			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
 					(reference "R7")
 					(unit 1)
 				)
@@ -3671,8 +4812,8 @@
 		)
 	)
 	(symbol
-		(lib_id "rs485-lowpower-eagle-import:C-EUC1206")
-		(at 81.28 151.13 0)
+		(lib_id "rs485-lowpower-eagle-import:A4L-LOC")
+		(at 17.78 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3680,31 +4821,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "644ef61a-667b-4e8d-9b45-1f93a2a1d1c2")
-		(property "Reference" "C8"
-			(at 82.804 150.749 0)
+		(uuid "bef4aab1-22c8-4313-ab55-9a3fa702acfa")
+		(property "Reference" "#FRAME1"
+			(at 17.78 198.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Value" "10u"
-			(at 82.804 155.829 0)
+		(property "Value" "A4L-LOC"
+			(at 17.78 198.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "rs485-lowpower:C1206"
-			(at 81.28 151.13 0)
+		(property "Footprint" ""
+			(at 17.78 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3715,7 +4856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 151.13 0)
+			(at 17.78 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3726,7 +4867,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 151.13 0)
+			(at 17.78 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3736,22 +4877,10 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "10e2de21-f021-46d7-9757-aa9048ee3130")
-		)
-		(pin "1"
-			(uuid "ce11e72a-64fa-47dc-b8cc-b7f439f0f55a")
-		)
 		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "C8")
-					(unit 1)
-				)
-			)
 			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "C8")
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "#FRAME1")
 					(unit 1)
 				)
 			)
@@ -3759,7 +4888,7 @@
 	)
 	(symbol
 		(lib_id "rs485-lowpower-eagle-import:R-EU_R0805")
-		(at 99.06 88.9 270)
+		(at 106.68 73.66 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3767,9 +4896,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6f157571-a697-4a8e-bdcd-dd64b032e9c0")
-		(property "Reference" "R3"
-			(at 100.5586 85.09 0)
+		(uuid "bfff0b58-4b8d-44cd-88e6-91bdc3fd38d5")
+		(property "Reference" "R6"
+			(at 108.1786 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3780,7 +4909,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 95.758 85.09 0)
+			(at 103.378 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3791,7 +4920,7 @@
 			)
 		)
 		(property "Footprint" "rs485-lowpower:R0805"
-			(at 99.06 88.9 0)
+			(at 106.68 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3802,7 +4931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 88.9 0)
+			(at 106.68 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3813,7 +4942,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 88.9 0)
+			(at 106.68 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3822,297 +4951,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "4bd66b93-0667-446a-b21a-77433d28c8ed")
 		)
 		(pin "2"
-			(uuid "d7433138-837f-42bf-9f28-9a07f9306ea3")
-		)
-		(pin "1"
-			(uuid "d528d40e-5091-41b8-a4b6-3aa59fc7c180")
+			(uuid "d125cafa-0afb-4917-b35a-664c43a011d7")
 		)
 		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "R3")
-					(unit 1)
-				)
-			)
 			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rs485-lowpower-eagle-import:GND")
-		(at 124.46 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7468908c-1685-45c9-ae4e-60fb5fe173c3")
-		(property "Reference" "#SUPPLY3"
-			(at 124.46 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 122.555 164.465 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "53e37dc7-b938-440a-a346-daddb3c281d4")
-		)
-		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "#SUPPLY3")
-					(unit 1)
-				)
-			)
-			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "#SUPPLY3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rs485-lowpower-eagle-import:22-23-2021")
-		(at 154.94 163.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "805c7b3a-fc69-4244-9124-15c32e04c639")
-		(property "Reference" "UNK3.3V0"
-			(at 157.48 164.592 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.2954)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "VAC"
-			(at 154.178 162.433 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "rs485-lowpower:22-23-2021"
-			(at 154.94 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e57d66a1-f6e7-4405-aede-ae5b39c68d24")
-		)
-		(pin "1"
-			(uuid "fd792d5f-b511-4830-bb1b-d01b300beb00")
-		)
-		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "UNK3.3V0")
-					(unit 1)
-				)
-			)
-			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "UNK3.3V0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rs485-lowpower-eagle-import:MA07-1")
-		(at 168.91 125.73 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "99bbee97-6224-4323-86a7-6c4ad139e22d")
-		(property "Reference" "MCU0"
-			(at 170.18 136.652 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "MA07-1"
-			(at 170.18 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "rs485-lowpower:MA07-1"
-			(at 168.91 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "0c18bbc9-ed9f-42a7-a852-1216e92076b1")
-		)
-		(pin "6"
-			(uuid "addd1d55-3c57-4afd-bc1b-e0cb55e6945b")
-		)
-		(pin "1"
-			(uuid "8d96d7db-d22d-47a7-9ba0-9a36f475079f")
-		)
-		(pin "2"
-			(uuid "74b990ed-7edf-4adc-8bf2-7cbaf4551091")
-		)
-		(pin "4"
-			(uuid "adb225ea-718e-4e42-8f22-e14d6a385835")
-		)
-		(pin "5"
-			(uuid "4e71d1d8-2dee-46fa-b1d0-6ed5d05ebb81")
-		)
-		(pin "7"
-			(uuid "346304fb-8611-4022-9efe-a5c230974659")
-		)
-		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "MCU0")
-					(unit 1)
-				)
-			)
-			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "MCU0")
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4120,7 +4969,7 @@
 	)
 	(symbol
 		(lib_id "rs485-lowpower-eagle-import:MAX485CSA+T")
-		(at 73.66 106.68 0)
+		(at 129.54 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4128,9 +4977,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b8418003-c7df-4bd1-8325-75bd8a18d6a9")
+		(uuid "c9bdb572-6f50-485e-b59d-4724354c4f89")
 		(property "Reference" "U4"
-			(at 60.96 87.9 0)
+			(at 116.84 72.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4140,8 +4989,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MAX487"
-			(at 60.96 128.46 0)
+		(property "Value" "MAX485CSA+T"
+			(at 116.84 113.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4152,7 +5002,7 @@
 			)
 		)
 		(property "Footprint" "rs485-lowpower:SOIC127P600X175-8N"
-			(at 73.66 106.68 0)
+			(at 129.54 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4163,7 +5013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 106.68 0)
+			(at 129.54 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4174,7 +5024,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 106.68 0)
+			(at 129.54 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4185,38 +5035,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "e267ac3d-a364-47d2-8648-f071fee7ad7d")
-		)
-		(pin "2"
-			(uuid "bbbf90a4-247b-4ff5-82b4-8c53c74c7375")
-		)
-		(pin "3"
-			(uuid "21000817-27b5-4036-bf6d-5719239a7810")
-		)
-		(pin "5"
-			(uuid "75f90dc3-b95b-4c08-9964-b34d9f3c4142")
-		)
-		(pin "6"
-			(uuid "455ed1bb-3806-4d45-849a-06972e26cdfc")
+			(uuid "c1867e3e-9f7c-4aff-a3fd-84844a8657fb")
 		)
 		(pin "4"
-			(uuid "b68c7bd8-e7f8-44ae-90c6-23b0055f30e5")
-		)
-		(pin "8"
-			(uuid "74586c34-aa94-4b7e-964c-34f3d07f9767")
+			(uuid "652253ec-8b3b-4996-91d6-7d37dbec526c")
 		)
 		(pin "7"
-			(uuid "c546c097-8b87-41bd-893f-a90dbfd0dbe0")
+			(uuid "878f3fd8-2b7a-4733-a4c5-f4b48dc2d85c")
+		)
+		(pin "5"
+			(uuid "2b16f5c2-9610-4daf-b2d8-ef212b4a90d2")
+		)
+		(pin "8"
+			(uuid "21710241-0da4-4e7f-937d-2eba0d59f2f0")
+		)
+		(pin "2"
+			(uuid "947bd092-6b2d-4312-b6f8-547dd9400d59")
+		)
+		(pin "6"
+			(uuid "a6b9bae4-34b0-47a2-a907-9619c60db3c0")
+		)
+		(pin "3"
+			(uuid "e08a7b85-0457-4df6-8517-d105c88d9864")
 		)
 		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "U4")
-					(unit 1)
-				)
-			)
 			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
 					(reference "U4")
 					(unit 1)
 				)
@@ -4225,7 +5069,7 @@
 	)
 	(symbol
 		(lib_id "rs485-lowpower-eagle-import:R-EU_R0805")
-		(at 111.76 88.9 270)
+		(at 167.64 73.66 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4233,9 +5077,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cfa2e76c-0a6f-4a77-8991-a468ac0fd232")
+		(uuid "cd87b3b4-2d6b-47d1-ac3d-fd7300983ea1")
 		(property "Reference" "R4"
-			(at 113.2586 85.09 0)
+			(at 169.1386 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4246,7 +5090,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 108.458 85.09 0)
+			(at 164.338 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4257,7 +5101,7 @@
 			)
 		)
 		(property "Footprint" "rs485-lowpower:R0805"
-			(at 111.76 88.9 0)
+			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4268,7 +5112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 88.9 0)
+			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4279,7 +5123,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 88.9 0)
+			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4289,21 +5133,15 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "68e8c749-e580-452f-9166-c98b9ca8d7ae")
-		)
 		(pin "2"
-			(uuid "b559653d-f509-4e19-9495-3df51c8ed4bb")
+			(uuid "f722881f-c76e-496c-887a-ba918d754d1e")
+		)
+		(pin "1"
+			(uuid "20696667-2b98-47ec-8c0f-1eec2c6fff0d")
 		)
 		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "R4")
-					(unit 1)
-				)
-			)
 			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
 					(reference "R4")
 					(unit 1)
 				)
@@ -4312,7 +5150,7 @@
 	)
 	(symbol
 		(lib_id "rs485-lowpower-eagle-import:R-EU_R0805")
-		(at 99.06 148.59 90)
+		(at 154.94 73.66 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4320,9 +5158,90 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "df0b0432-75df-481a-b288-2aec6cf52599")
+		(uuid "d37ac2f3-e7fb-45bf-aec9-6f7a4a4ca432")
+		(property "Reference" "R3"
+			(at 156.4386 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 151.638 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "rs485-lowpower:R0805"
+			(at 154.94 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "10d5c3a3-d050-42ac-8f12-1ee3771dfd6a")
+		)
+		(pin "1"
+			(uuid "662cecce-e342-4cba-ad6c-0e094b665a02")
+		)
+		(instances
+			(project "rs485-lowpower"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rs485-lowpower-eagle-import:R-EU_R0805")
+		(at 149.86 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de58e1b3-15f8-4c94-9e7c-3c788851d7bb")
 		(property "Reference" "R1"
-			(at 97.5614 152.4 0)
+			(at 148.3614 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4333,7 +5252,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 102.362 152.4 0)
+			(at 153.162 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4344,7 +5263,7 @@
 			)
 		)
 		(property "Footprint" "rs485-lowpower:R0805"
-			(at 99.06 148.59 0)
+			(at 149.86 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4355,7 +5274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 148.59 0)
+			(at 149.86 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4366,7 +5285,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 148.59 0)
+			(at 149.86 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4377,195 +5296,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b02976c-1407-43f7-a5e2-694e6a357303")
+			(uuid "3e98189d-7528-400a-9dce-b8b2474655a4")
 		)
 		(pin "2"
-			(uuid "71fcdae3-456a-4670-a1fb-ac2d4da5ce6e")
+			(uuid "8aaef4d1-f002-472f-9c85-f09618a805aa")
 		)
 		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
+			(project "rs485-lowpower"
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rs485-lowpower-eagle-import:R-EU_R0805")
-		(at 124.46 151.13 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "df8302f8-d214-42f8-9947-045865a27a4d")
-		(property "Reference" "R8"
-			(at 122.9614 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "20k"
-			(at 127.762 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "rs485-lowpower:R0805"
-			(at 124.46 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1975af73-4363-4400-bbcc-9aab3af68238")
-		)
-		(pin "1"
-			(uuid "ca8f5aeb-00ad-4c24-9a71-58751de9cad7")
-		)
-		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rs485-lowpower-eagle-import:LEDSML0805")
-		(at 99.06 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e0278852-8272-40c0-9b83-2dfb4eb9436e")
-		(property "Reference" "LED1"
-			(at 102.616 165.862 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "LEDSML0805"
-			(at 104.775 163.322 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "rs485-lowpower:SML0805"
-			(at 99.06 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A"
-			(uuid "a2591b01-1ad0-4e37-8cd3-77747ee0d964")
-		)
-		(pin "C"
-			(uuid "7e057434-430b-48b7-9fbc-e1c9f841f219")
-		)
-		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -4573,7 +5312,7 @@
 	)
 	(symbol
 		(lib_id "rs485-lowpower-eagle-import:22-23-2021")
-		(at 154.94 158.75 0)
+		(at 215.9 165.1 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4581,9 +5320,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f7d91507-99b2-44d8-a9f9-3138064ecf67")
-		(property "Reference" "UNK5V0"
-			(at 157.48 159.512 0)
+		(uuid "f66df5e1-9f2f-4a0e-9d9f-aab95d5dfc9e")
+		(property "Reference" "UNK3.3V0"
+			(at 218.44 165.862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4594,7 +5333,7 @@
 			)
 		)
 		(property "Value" "VAC"
-			(at 154.178 157.353 0)
+			(at 215.138 163.703 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4606,7 +5345,7 @@
 			)
 		)
 		(property "Footprint" "rs485-lowpower:22-23-2021"
-			(at 154.94 158.75 0)
+			(at 215.9 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4617,7 +5356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 158.75 0)
+			(at 215.9 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4628,7 +5367,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 158.75 0)
+			(at 215.9 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4639,39 +5378,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "582fd3a5-d5b5-4a97-ad32-760341b2bf10")
+			(uuid "1e8d8efc-e1c7-4ad3-bf70-bca7e272f116")
 		)
 		(pin "2"
-			(uuid "f3989f58-ac1e-4846-87c9-f1120c618ee6")
+			(uuid "a6e9a44a-d499-4590-b787-2f20c794b734")
 		)
 		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "UNK5V0")
-					(unit 2)
-				)
-			)
 			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "UNK5V0")
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "UNK3.3V0")
 					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "rs485-lowpower-eagle-import:R-EU_R0805")
-		(at 50.8 88.9 270)
-		(unit 1)
+		(lib_id "rs485-lowpower-eagle-import:22-23-2021")
+		(at 215.9 157.48 0)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fa6efd30-be2f-468a-9272-ab02c8bff0ba")
-		(property "Reference" "R6"
-			(at 52.2986 85.09 0)
+		(uuid "f90c0b88-9c7b-43de-937e-48ef8844e02a")
+		(property "Reference" "UNK5V0"
+			(at 218.44 158.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VAC"
+			(at 215.138 156.083 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4681,19 +5426,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10k"
-			(at 47.498 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "rs485-lowpower:R0805"
-			(at 50.8 88.9 0)
+		(property "Footprint" "rs485-lowpower:22-23-2021"
+			(at 215.9 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4704,7 +5438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 88.9 0)
+			(at 215.9 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4715,7 +5449,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 88.9 0)
+			(at 215.9 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4725,23 +5459,17 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "5b7d8b79-1fbf-458b-90f6-86f7ca1a9c73")
-		)
 		(pin "1"
-			(uuid "28b29315-4092-46ce-b6e1-dfc44373f8c1")
+			(uuid "34cedcbd-36e6-461e-8fd5-dd3fbdb01464")
+		)
+		(pin "2"
+			(uuid "88a08d8e-4b34-49c2-9711-92cfe2bdabca")
 		)
 		(instances
-			(project "rs485-lowpower_1"
-				(path "/5bb97b92-171a-416e-ad00-ad75731826ac"
-					(reference "R6")
-					(unit 1)
-				)
-			)
 			(project "rs485-lowpower"
-				(path "/741fc570-1b0d-483b-8e0f-5903f86f310e"
-					(reference "R6")
-					(unit 1)
+				(path "/214fddbe-d74d-4cd0-a61f-c7a905f507ec"
+					(reference "UNK5V0")
+					(unit 2)
 				)
 			)
 		)
