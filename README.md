@@ -85,7 +85,7 @@ This project uses **PlatformIO** inside **Visual Studio Code**.
 
 | Pin Name | Description | Connection |
 | :--- | :--- | :--- |
-| **VCC** | Power Input | 3.3V / 5V (Check version) |
+| **VCC** | Power Input | Depend on the sensor specifications |
 | **GND** | Ground | Ground |
 | **A** | RS485 Data+ | Connect to Bus A |
 | **B** | RS485 Data- | Connect to Bus B |
