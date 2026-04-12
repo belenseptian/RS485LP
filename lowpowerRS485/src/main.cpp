@@ -140,5 +140,5 @@ void loop()
 
   // Enter shutdown mode after communication
   enableShutdown();
-  delay(5000);
+  delay(1000);
 }
