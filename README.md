@@ -62,7 +62,7 @@ This project uses **PlatformIO** inside **Visual Studio Code**.
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/belenseptian/RS-485LP.git
+    git clone https://github.com/belenseptian/RS485LP.git
     ```
 2.  Open VS Code and go to **PlatformIO Home** \> **Open Project**.
 3.  Navigate to the `firmware/` folder and select it.
