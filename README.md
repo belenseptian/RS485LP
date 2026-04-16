@@ -7,7 +7,7 @@
 
 **RS-485LP** is an open-source RS485 converter featuring a custom PCB and optimized PlatformIO firmware. It is designed to minimize power consumption for battery-operated sensors and remote monitoring systems.
 
-🔗 **Official Project Website:** [https://belenseptian.github.io/RS-485LP/](https://belenseptian.github.io/RS-485LP/)
+🔗 **Official Project Website:** [https://belenseptian.github.io/RS485LP/](https://belenseptian.github.io/RS485LP/)
 
 -----
 
