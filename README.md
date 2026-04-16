@@ -1,18 +1,18 @@
 -----
 
-# RS485LP (Low Power RS485 Node)
+# RS-485LP (Low Power RS485 Node)
 
 [](https://www.gnu.org/licenses/gpl-3.0)
 [](https://platformio.org/)
 
-**RS485LP** is an open-source RS485 converter featuring a custom PCB and optimized PlatformIO firmware. It is designed to minimize power consumption for battery-operated sensors and remote monitoring systems.
+**RS-485LP** is an open-source RS485 converter featuring a custom PCB and optimized PlatformIO firmware. It is designed to minimize power consumption for battery-operated sensors and remote monitoring systems.
 
-🔗 **Official Project Website:** [https://belenseptian.github.io/RS485LP/](https://belenseptian.github.io/RS485LP/)
+🔗 **Official Project Website:** [https://belenseptian.github.io/RS-485LP/](https://belenseptian.github.io/RS-485LP/)
 
 -----
 
 ### 📟 Board Design Preview
-Below are the top and bottom views of the RS485LP PCB.
+Below are the top and bottom views of the RS-485LP PCB.
 
 | Top View (Components) | Bottom View (Traces) |
 | :---: | :---: |
@@ -62,7 +62,7 @@ This project uses **PlatformIO** inside **Visual Studio Code**.
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/belenseptian/RS485LP.git
+    git clone https://github.com/belenseptian/RS-485LP.git
     ```
 2.  Open VS Code and go to **PlatformIO Home** \> **Open Project**.
 3.  Navigate to the `firmware/` folder and select it.
@@ -95,7 +95,7 @@ This project uses **PlatformIO** inside **Visual Studio Code**.
 ## 📂 Project Structure
 
 ```text
-RS485LP/
+RS-485LP/
 ├── firmware/           # PlatformIO project files
 │   ├── src/            # Main application code (Sleep/Shutdown logic)
 │   └── platformio.ini  # Project configuration
